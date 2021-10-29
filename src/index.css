@@ -1,0 +1,77 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    background:rgb(59, 170, 221)
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+
+  .display {
+    background: rgb(206, 206, 206);
+    border: 1px solid #999;
+    float: left;
+    line-height: 34px;
+    height: 75px;
+    margin-bottom: 18px;
+    padding: 0;
+    text-align: right;
+    width: 300px;
+    font: 30px "Courier New";
+    font-weight: bold;
+  }
+  
+  .display:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .key {
+    background: rgb(153, 153, 153);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 50px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 10p;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .key:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .calc {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .border {
+    background: salmon;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 20px;
+    width: 300px;
+  }
+  
